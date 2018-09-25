@@ -128,3 +128,9 @@ const SnowWarning = hazardWarningCreator('snow');
 SnowWarning('brrrrrr'); 
 SnowWarning('freezer'); 
 hazardWarningCreator('fire')('middle earth');  
+
+
+let turtleMovements =  [[0, 0], [0, 5], [-1, -3], [-3, 1], [2, -4], [3, 2]];
+turtleMovements.filter(value =>  value[0] >= 0 && value[1] >= 0).map(total => total[0] + total[1]).forEach(item => console.log(`The turtle took ${item} steps`));
+
+
