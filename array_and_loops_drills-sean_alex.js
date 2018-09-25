@@ -59,3 +59,21 @@ function fizzBuzz(countTo) {
 
 const fizzTest = fizzBuzz(15);
 console.log(fizzTest);
+
+const hello = function hello(){ 
+  console.log('hi'); 
+}; 
+
+const bye = function bye(){ 
+  console.log('bye'); 
+} 
+
+function repeat(fn, n){ 
+  for(let i = 0; i < n; i++){ 
+    fn(); 
+  }
+}
+
+repeat(bye, 5); 
+
+
